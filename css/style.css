@@ -2,494 +2,523 @@
     margin: 0;
     padding: 0;
 }
-
 .head {
-    height: 127px;
+    height: 57px;
     width:100%;
     background-color: rgb(0, 0, 0);
-    position:fixed;
+    position: fixed;
     z-index: 1;
-
 }
-
 .Aimg {
-    width: 200px;
-    height: 60px;
-    padding: 40px;
-    transition: 0.6s;
-    
+   padding: 10px 5px;
+   transition-duration: 0.6s;
 }
 .Aimg:hover{
-       transform:translate(-0px,-5px);
-       transition: 0.6s;
-
-    
+    transform:translate(-0px,-5px);
+    transition: 0.6s;
 }
-
 .location {
     background: transparent;
     position: absolute;
-    top: 20px;
-    left: 270px;
-    width: 320px;
-    height: 100px;
+    top: 10px;
+    left: 135px;
+    width: 160px;
+    height: 40px;
     z-index: 1;
     color: aliceblue;
-    font-size: 25px;
+    font-size: 12px;
     font-weight:bolder;
-    line-height: 0px;
     
-   
+    
+}
+.location:hover{
+    border: 1px solid white;
+    height: 40px;
+    border-radius: 3px; 
+}
+.v{
+    color: rgb(212, 138, 35);
 }
 .b{
     font-weight: lighter;
     font-family: monospace;
-    font-size: 25px;
+    font-size:15px;
     position: absolute;
-    left: 65px;
+    left: 50px;
 }
 .d{
     font-weight: lighter;
     font-family: monospace;
-    font-size: 25px;
+    font-size: 15px;
     position: absolute;
-    left: 35px;
+    left:15px;
 }
-.return{
-    background: transparent;
-     position: absolute;
-    top: 20px;
-    left: 2060px;
-    width: 240px;
-    height: 100px;
-    color: aliceblue;
-    font-size: 25px;
-    font-weight:bolder;
-    line-height: 0px;
-    
-}
-.return:hover{
-    border: 1px solid white;
-    height: 80px;
-    margin-top: 10px;
-    border-radius: 5px;
-}
-
-.v{
-    color: rgb(212, 138, 35);
-}
-.location:hover{
-     border: 1px solid white;
-     height: 80px;
-     margin-top: 10px;
-     border-radius: 5px;
-     
-}
-
 #ALL {
     background-color: rgb(232, 232, 232);
     border: 1px solid white;
     position: absolute;
-    top: 30px;
-    left: 600px;
-    width: 100px;
-    height: 80px;
+    top: 10px;
+    left: 300px;
+    width: 60px;
+    height: 40px;
     z-index: 1;
     color: rgb(57, 62, 67);
-    font-size: 20px;
-    padding: 10PX;
-    border-top-left-radius: 10PX;
-    border-bottom-LEFT-radius: 10px;
+    font-size: 10px;
+    padding: 5PX;
+    border-top-left-radius: 7PX;
+    border-bottom-LEFT-radius: 7px;
     font-weight: bolder;
     cursor:pointer;
 }
 option{
-    font-size: 50px;
+    font-size: 30px;
 }
 .search {
-    width: 850px;
-    height: 80px;
+    width: 420px;
+    height: 40px;
     position: absolute;
-    top: 30px;
-    left: 700px;
+    top: 10px;
+    left: 360px;
     border: none;
-    font-size: 30px;
+    font-size: 20px;
+    display: flex;
 
 }
 
 .Sbutton {
-    width: 100px;
-    height: 80px;
+    width: 50px;
+    height: 40px;
     position: absolute;
-    top: 30px;
-    left: 1550px;
+    top: 10px;
+    left: 780px;
     border: none;
     background-color: rgb(232, 179, 74);
-    border-top-right-radius: 10PX;
-    border-bottom-right-radius: 10px;
+    border-top-right-radius: 7PX;
+    border-bottom-right-radius: 7px;
     cursor: pointer;
-}
+    
+} 
+svg{ 
+    width: 20px;
+    height: 40px;
+    color: yellow;
+} 
 .account{
     background: transparent;
     position: absolute;
-    top: 20px;
-    left: 1770px;
-    width: 260px;
-    height: 100px;
+    top: 10px;
+    left: 850px;
+    width: 140px;
+    height: 40px;
     z-index: 1;
     color: aliceblue;
-    font-size: 25px;
+    font-size: 12px;
     font-weight:bolder;
-    line-height: 30px;
+    
 
 }
 .account:hover{
     border: 1px solid white;
-    height: 80px;
-    margin-top: 10px;
-    border-radius: 5px;
+    height: 40px;
+    border-radius: 3px;
     
 }
-
-svg {
-    width: 40px;
+.return{
+    background: transparent;
+     position: absolute;
+    top: 10px;
+    left: 79%;
+    width: 100px;
     height: 40px;
-    color: yellow;
+    color: aliceblue;
+    font-size: 13px;
+    font-weight:bolder;
+    line-height: 15px; 
+    
 }
-
+.return:hover{
+    border: 1px solid rgb(255, 255, 255);
+    height: 40px;
+    
+    border-radius: 3px;
+    z-index: 1;
+}
 .cart {
-    width: 200px;
-    height: 80px;
     position: absolute;
-    top: 30px;
-    left: 2300px;
+    top: 10px;
+    left: 89%;
+    color: white;
+    width: 80px;
+    height: 40px;
     border: none;
     background: transparent;
-   
+}
+b {
+    font-size: 15px;
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    color: white;
+}
+.cart3{
+    position: absolute;
+    left: 10px;
+    top: 0px;
 }
 .cart:hover{
     border: 1px solid white;
-    border-radius: 5px;
-}
-
-b {
-    font-size: 30px;
-    color: white;
+    border-radius: 3px;
 }
 .down{
     width: 100%;
-    height: 80px;
+    height: 40px;
     background-color: rgb(27, 46, 52);
-    position:fixed;
-    top: 125px;
+    position:absolute;
+    top: 55px;
     z-index: 1;
 } 
-.bi-list{
-    color: aliceblue;
-    position: relative;
-    top: 5px;
-    z-index: 1;
-}
 .m1{
-    width: 100px;
-    height: 50px;
+    width: 50px;
+    height: 30px;
+    line-height:10px;
     position:fixed;
-    top: 133px;
+    top: 60px;
     left: 40px;
     border: none;
     background: transparent;
-    font-size: 27px;
+    font-size: 15px;
     color: white;
     border:1px rgb(27, 46, 52) solid;
     z-index: 1;
     cursor: pointer;
+    word-spacing: 3px;
 }
 .m1:hover{
     border: 1px solid white;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 .m2{
-    width: 180px;
-    height: 50px;
+    
+    width:100px;
+    height: 30px;
+    line-height:10px;
     position:fixed;
-    top: 140px;
-    left: 150px;
+    top: 60px;
+    left: 8%;
     border: none;
     background: transparent;
-    font-size: 27px;
+    font-size: 15px;
     color: white;
     border:1px rgb(27, 46, 52) solid;
     z-index: 1;
     cursor: pointer;
-}
+    word-spacing: 3px;}
 .m2:hover{
     border: 1px solid white;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 .m3{
-    width: 130px;
-    height: 50px;
+   
+    width: 65px;
+    height: 30px;
+    line-height:10px;
     position:fixed;
-    top: 140px;
-    left: 350px;
+    top: 60px;
+    left: 16%;
     border: none;
     background: transparent;
-    font-size: 27px;
+    font-size: 15px;
     color: white;
     border:1px rgb(27, 46, 52) solid;
     z-index: 1;
     cursor: pointer;
-   
+    word-spacing: 3px;
 }
 .m3:hover{
     border: 1px solid white;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 .m4{
-    width: 120px;
-    height: 50px;
+    width: 100px;
+    height: 30px;
+    line-height:10px;
     position:fixed;
-    top: 140px;
-    left: 500px;
+    top: 60px;
+    left: 21.5%;
     border: none;
     background: transparent;
-    font-size: 27px;
+    font-size: 15px;
     color: white;
     border:1px rgb(27, 46, 52) solid;
     z-index: 1;
     cursor: pointer;
+    word-spacing: 3px;
+
    
 }
 .m4:hover{
     border: 1px solid white;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 .m5{
-    width: 200px;
-    height: 50px;
+    width: 115px;
+    height: 30px;
+    line-height:10px;
     position:fixed;
-    top: 140px;
-    left: 630px;
+    top: 60px;
+    left: 29.4%;
     border: none;
     background: transparent;
-    font-size: 27px;
+    font-size: 15px;
     color: white;
     border:1px rgb(27, 46, 52) solid;
     z-index: 1;
     cursor: pointer;
-   
+    word-spacing: 3px;
+
 }
 .m5:hover{
     border: 1px solid white;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 .m6{
-    width:250px;
-    height: 50px;
+    width: 145px;
+    height: 30px;
+    line-height:10px;
     position:fixed;
-    top: 140px;
-    left: 850px;
+    top: 60px;
+    left: 38.8%;
     border: none;
     background: transparent;
-    font-size: 27px;
+    font-size: 15px;
     color: white;
     border:1px rgb(27, 46, 52) solid;
     z-index: 1;
     cursor: pointer;
-   
+    word-spacing: 3px;
 }
 .m6:hover{
     border: 1px solid white;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 .m7{
-    width: 170px;
-    height: 50px;
+    width: 99px;
+    height: 30px;
+    line-height:10px;
     position:fixed;
-    top: 140px;
-    left: 1120px;
+    top: 60px;
+    left:50.6%;
     border: none;
     background: transparent;
-    font-size: 27px;
+    font-size: 15px;
     color: white;
     border:1px rgb(27, 46, 52) solid;
     z-index: 1;
     cursor: pointer;
-   
+    word-spacing: 3px;
+
 }
 .m7:hover{
     border: 1px solid white;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 .m8{
-    width: 140px;
-    height: 50px;
+    width: 99px;
+    height: 30px;
+    line-height:10px;
     position:fixed;
-    top: 140px;
-    left: 1300px;
+    top: 60px;
+    left: 58.49%;
     border: none;
     background: transparent;
-    font-size: 27px;
+    font-size: 15px;
     color: white;
     border:1px rgb(27, 46, 52) solid;
     z-index: 1;
     cursor: pointer;
+    word-spacing: 3px;
+
    
 }
 .m8:hover{
     border: 1px solid white;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 .m9{
-    width: 100px;
-    height: 50px;
+    width: 99px;
+    height: 30px;
+    line-height:10px;
     position:fixed;
-    top: 140px;
-    left: 1450px;
+    top: 60px;
+    left: 66.33%;
     border: none;
     background: transparent;
-    font-size: 27px;
+    font-size: 15px;
     color: white;
     border:1px rgb(27, 46, 52) solid;
     z-index: 1;
     cursor: pointer;
-   
+    word-spacing: 3px;
+
 }
 .m9:hover{
     border: 1px solid white;
-    border-radius: 5px;
+    border-radius: 3px;
+
 }
 .m10{
-    width:200px;
-    height: 50px;
+    width: 150px;
+    height: 30px;
+    line-height:10px;
     position:fixed;
-    top: 140px;
-    left: 1570px;
+    top: 60px;
+    left: 74.2%;
     border: none;
-    background: transparent;
-    font-size: 27px;
+    font-size: 15px;
     color: white;
     border:1px rgb(27, 46, 52) solid;
     z-index: 1;
     cursor: pointer;
+    word-spacing: 3px;
+    transition: 0.6s;
+    background: transparent;
    
 }
 .m10:hover{
     border: 1px solid white;
-    border-radius: 5px;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    transition: 0.6s;
+    background-image: linear-gradient(90deg,red 0%,blue 60%,green 80%);
+    
 }
 .m11{
-    width:730px;
-    height: 60px;
+    width: 200px;
+    height: 30px;
+    line-height:10px;
     position:fixed;
-    top: 135px;
-    left: 1770px;
+    top: 60px;
+    left: 86%;
     border: none;
     background: transparent;
-    font-size: 35px;
+    font-size: 15px;
     color: white;
     border:1px rgb(27, 46, 52) solid;
     z-index: 1;
     cursor: pointer;
+    word-spacing: 3px;
+
 }
 .m11:hover{
     border: 1px solid white;
-    border-radius: 5px;
-}
-.containt{
-    background-color: rgb(214, 214, 214);
-    width:100%;
-    height: 500px;
-    position:absolute;
-    top: 205px;
+    border-radius: 3px;
 }
 .back{
     width: 100%;
-    height: 1000px;
+    height: 500px;
+    position: relative;
+    top: 95px;
 }
-.product1{
-   position: absolute;
-   top: 500px;
-   left: 50px;
-   cursor: pointer;
-   transition: 0.6s;
-}
-.product1:hover{
-    transform: translate(-0px,-10px);
-   transition: 0.6s;
-}
-.product2{
+.down{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(27, 46, 52);
+    position:fixed;
+    top: 55px;
+    z-index: 1;
+} 
+.blur{
+    background-image: linear-gradient(rgb(48, 74, 83),rgb(197, 226, 236));
     position: absolute;
-    top: 500px;
-    left: 750px; 
-    cursor: pointer; 
-    transition: 0.6s;
- }
- .product2:hover{
-    transform: translate(-0px,-10px);
-   transition: 0.6s;
-}
- .product3{
-    position: absolute;
-    top: 500px;
-    left: 1450px;
-    cursor: pointer;
-    transition: 0.6s;
- }
- .product3:hover{
-    transform: translate(-0px,-10px);
-   transition: 0.6s;
- }
- .blur{
-    background-image: linear-gradient(rgba(43, 69, 78, 0.642),rgb(255, 255, 255));
-    position: absolute;
-    top: 500px;
+    top: 595px;
     width: 100%;
     height: 500px;
  }
- .top{
-    width: 100%;
-    height: 80px;
-    background-color: rgb(27, 46, 52);
-    position: relative;
-    top: 500px;
-    color: white;
-    font-size: 30px; 
-    z-index: 1;
- }
- .foot{
-    width: 100%;
-    height: 300px;
-    background-image:linear-gradient( rgb(27, 46, 52),rgb(91, 255, 228));
-    position:absolute;
-    top: 1780px;
-    border: 1px solid white;
-    
-    
- }
- 
-.login{
-    width: 300px;
-    height: 200px;
+ .product1{
     position: absolute;
-    top: 500px;
-    left: 2150px;
+    top: 350px;
+    left: 40px;
+    cursor: pointer;
+    transition: 0.6s;
+ }
+ .product1:hover{
+     transform: translate(-0px,-10px);
+    transition: 0.6s;
+ }
+ .product2{
+     position: absolute;
+     top: 350px;
+     left: 660px; 
+     cursor: pointer; 
+     transition: 0.6s;
+     
+  }
+  .product2:hover{
+     transform: translate(-0px,-10px);
+    transition: 0.6s;
+ }
+  .product3{
+     position: absolute;
+     top: 350px;
+     left: 350px;
+     cursor: pointer;
+     transition: 0.6s;
+  }
+  .product3:hover{
+     transform: translate(-0px,-10px);
+    transition: 0.6s;
+  }
+  .login{
+    width: 10%;
+    height: 150px;
+    position: absolute;
+    top: 350px;
+    left: 78%;
     text-align: center;
+    word-spacing: 5px;
     padding: 25px;
-    font-size: 30px;
+    font-size: 20px;
     background-color: white;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .sign-in{
-    font-size: 25px;
+    width: 200px;
+    font-size: 15px;
     margin-top: 40px;
     padding: 10px;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: rgb(255, 220, 44);
-    border-radius: 10px;
+    border-radius: 5px;
+    transition: 1s;
+    font-weight: bold;
 }
 .sign-in:hover{
-    background-color: rgb(255, 201, 24);
+    background-color: rgb(23, 100, 200);
+    letter-spacing:  2px;
+    transition: 1s;
+    color: white;
 }
+.top{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(27, 46, 52);
+    position: relative;
+    top: 400px;
+    color: white;
+    font-size: 20px; 
+    z-index: 1;
+ }
+ .foot{
+    width: 100%;
+    height: 150px;
+    background-image:linear-gradient( rgb(27, 46, 52),rgb(91, 255, 228));
+    position:absolute;
+    top: 953.7px;
+    border: 1px solid white;
+ }
  
+
+
+
+
